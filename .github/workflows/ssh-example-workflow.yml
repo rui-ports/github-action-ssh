@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ls -a via OPEN SSH Private Key
+      - name: ls -a via OPEN SSH Private Keys
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: ls -a
